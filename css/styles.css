@@ -14,10 +14,8 @@ textarea:focus,
 .select select:focus,
 .textarea:focus 
 {
-  outline: 2px solid blue;
+  outline: 2px solid black;
 }
-
-
 
 .hero-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -196,4 +194,36 @@ li {
   width: 40px;
   height: 40px;
   background-size: contain;
+}
+
+.hero.has-background-grey-light {
+  color: #292929;
+}
+
+.hero.is-info {
+  background-color: #0A5485;
+}
+
+.tabs.is-boxed.is-centered.main-menu ul a:focus {
+  outline: 2px solid #F5F5F5;
+}
+
+.menu-list.forum-list .is-primary {
+  background-color: #005C4D;
+}
+
+.menu-list.forum-list .is-danger {
+  background-color: #AD0023;
+}
+
+.has-text-grey-light {
+  color: #575757 !important;
+}
+
+.help.is-success {
+  color: #0B602A;
+}
+
+.help.is-danger {
+  color: #B30024;
 }
